@@ -1,0 +1,3 @@
+addressApp.controller('StaticCtrl', [function(){
+
+}])

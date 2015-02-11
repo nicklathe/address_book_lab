@@ -17,4 +17,12 @@ addressApp.config(['$routeProvider', '$locationProvider', function($routeProvide
             templateUrl: '/views/contact/show.html',
             controller: 'ContactShowCtrl'
         })
+        .when('/about', {
+            templateUrl: '/views/about.html',
+            controller: 'StaticCtrl'
+        })
+        .when('/faq', {
+            templateUrl: '/views/faq.html',
+            controller: 'StaticCtrl'
+        })
 }])

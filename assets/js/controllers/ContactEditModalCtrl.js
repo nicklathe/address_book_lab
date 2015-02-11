@@ -6,6 +6,7 @@ addressApp.controller('ContactEditModalCtrl', ['$scope', '$http', '$modalInstanc
     $scope.address = contact.address;
     $scope.city = contact.city;
     $scope.state = contact.state;
+    $scope.zip = contact.zip;
     $scope.phone = contact.phone;
     $scope.notes = contact.notes;
 

@@ -26,7 +26,7 @@ addressApp.controller('HomeCtrl', ['$scope', '$http', '$modal', function($scope,
         }).result.then(function(updatedContact){
             $scope.contacts[contactIdx] = updatedContact;
         }, function(){
-            alert('modal closed with cancel');
+
         })
     };
 }]);
