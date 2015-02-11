@@ -1,0 +1,47 @@
+<div class="modal-header">
+    <h3 class="modal-title">Edit Contact</h3>
+</div>
+
+<div class="modal-body">
+    <div class="form-group">
+        <label>First Name</label>
+        <input type="text" class="form-control" ng-model="firstName">
+    </div>
+    <div class="form-group">
+        <label>Last Name</label>
+        <input class="form-control" ng-model="lastName"></input>
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input class="form-control" ng-model="email"></input>
+    </div>
+    <div class="form-group">
+        <label>Street Address</label>
+        <input class="form-control" ng-model="address"></input>
+    </div>
+    <div class="form-group">
+        <label>City</label>
+        <input class="form-control" ng-model="city"></input>
+    </div>
+    <div class="form-group">
+        <label>State</label>
+        <input class="form-control" ng-model="state"></input>
+    </div>
+    <div class="form-group">
+        <label>Zip</label>
+        <input class="form-control" ng-model="zip"></input>
+    </div>
+    <div class="form-group">
+        <label>Phone Number</label>
+        <input class="form-control" ng-model="phone"></input>
+    </div>
+    <div class="form-group">
+        <label>Notes</label>
+        <textarea class="form-control" ng-model="notes"></textarea>
+    </div>
+</div>
+
+<div class="modal-footer">
+    <button ng-click="cancel()"class="btn btn-danger">Cancel</button>
+    <button ng-click="save()"class="btn btn-primary">Save Contact</button>
+</div>
